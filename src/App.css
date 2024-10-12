@@ -1,0 +1,29 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  max-width: 200px;
+  text-align: left;
+}
+
+.movie-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.filter {
+  margin: 20px 0;
+}
